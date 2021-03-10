@@ -12,7 +12,7 @@ y = []
 xn1 = []
 xn2 = []
 xn3 = []
-var319 = []
+var208 = []
 
 for i in range(8):
     x1.append(random.randint(1, 20))
@@ -37,10 +37,10 @@ for i in range(8):
 
 for i in y:
     if i > Yet:
-        var319.append(i)
+        var208.append(i)
 
 
-ind = y.index(min(var319))
+ind = y.index(min(var208))
 
 print("a0=%s a1=%s a2=%s a3=%s"%(a0, a1, a2, a3))
 print("X1: %s"%x1)
