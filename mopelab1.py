@@ -42,13 +42,16 @@ for i in y:
 
 ind = y.index(min(var208))
 
+x0 = [x01, x02, x03]
+dx = [dx1, dx2, dx3]
+
 print("a0=%s a1=%s a2=%s a3=%s"%(a0, a1, a2, a3))
 print("X1: %s"%x1)
 print("X2: %s"%x2)
 print("X3: %s"%x3)
 print("Y: %s"%y)
-print("x0: %s %s %s" % (x01, x02, x03))
-print("dx: %s %s %s" % (dx1, dx2, dx3))
+print("x0: %s" % x0)
+print("dx: %s" % dx)
 print("Xн1: %s"%xn1)
 print("Xн2: %s"%xn2)
 print("Xн3: %s"%xn3)
